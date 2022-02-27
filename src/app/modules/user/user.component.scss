@@ -1,0 +1,28 @@
+.header {
+    background: url(~src/assets/images/bg-image.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.main-nav {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 300;
+    transition: all .3 linear;
+
+
+    &--search {
+        height: 100%;
+        background-color: yellow;
+        .button-icon {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
